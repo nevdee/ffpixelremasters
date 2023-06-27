@@ -1,0 +1,19 @@
+Note that this will work with CFW atmosphere only
+
+download font bundle from nexusmods called dual font switch final fantasy
+
+extract, and then find folder called StreamingAssets. there should be six of them, corresponding to each FF PR game.
+
+in that folder, delete font_en.bundle
+
+in the same folder, rename font_jp.bundle to font_en.bundle
+
+still in the same folder, duplicate font_en.bundle and rename the copy to font_en.manifest
+
+repeat the process to all StreamingAssets folder, depending on which FF pixel remaster you want the font customized. for me i just repeat the process 6 times to have all 6 games have custom font
+
+copy and paste the whole extracted folder (should be called atmosphere) to the root of switch sd card. Alternatively, copy and paste whatever folder corresponding to the FF PR game you want to customize to atmosphere/contents. Example: copy and paste folder called 0100AA001415EO00 to atmosphere/contents to change font for FFVI.
+
+start game, and then change font style to modernized in game config.
+
+profit & enjoy the beautiful font!
